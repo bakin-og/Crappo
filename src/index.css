@@ -1,0 +1,778 @@
+body {
+  margin: 0;
+  font-family: 'Oxanium', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0D0D2B;
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;  
+}
+/* Mobile screen (min-width:320px) */
+
+/* Navbar */
+.navbar{
+  top: 0px;
+  margin-top: 15px;
+  position: sticky;
+  background-color: #0D0D2B;
+}
+.navclose{
+  background-color: #2B076E;
+}
+.nav-item{
+  color: white;
+  margin: 2px;
+}
+#ben{
+  color: white;
+}
+.navbar-toggler{
+  background-color: white;
+}
+.crappo{
+  padding-right: 100px;
+}
+.login{
+  position: relative;
+  right: 30px; 
+}
+.register{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px; 
+  position: relative;
+  left: 30px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 32px;
+}
+
+/* SectionA */
+.span-A1{
+  border: 1px solid white;
+  border-radius: 32px;
+  width: 305px;
+  padding: 5px;
+  text-align: end;
+  font-size: 13px;
+  background-color:  grey;
+}
+.span-A2{
+  border: 1px solid white;
+  border-radius: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  right: 30px;
+  background-color: white;
+  color: black;
+  padding: 4px;
+}
+.friday{
+  padding-left: 10px;
+}
+.secA{
+  padding-top: 40px;
+  margin-left: 15px;
+  left: 15px;
+  background-color: #0D0D2B;
+}
+.fastest{
+  padding-top: 30px;
+  text-align: start;
+  line-height: 120%;
+  font-size: 35px;
+}
+.buynsell{
+  text-align: start;
+  left: 15px;
+}
+.try{
+  margin-top: 25px;
+  border: 1px solid white;
+  border-radius: 32px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  height: 60px;
+  padding-left: 30px;
+  background-color: white;
+  color: blue; 
+}
+.arrow{
+  background-color: transparent;
+  padding: 8px;
+}
+.btc{
+  width: 300px;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+}
+.curlist{
+  margin-top: 100px;
+}
+.rowA{
+  margin-bottom: 50px;
+}
+.rowB{
+  margin-bottom: 50px;
+}
+.rowC{
+  margin-bottom: 50px;
+}
+.bar{
+  border: 1px solid white;
+  border-radius: 32px;
+  padding: 8px;
+}
+.network{
+  border: 1px solid white;
+  border-radius: 32px;
+  padding: 8px;
+}
+.people{
+  border: 1px solid white;
+  border-radius: 32px;
+  padding: 8px;
+}
+.thirty{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  right: 30px;
+  text-align: start;
+}
+.exchange{
+  font-weight: 120;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.ninety{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  right: 30px;
+  text-align: start;
+}
+.country{
+  font-weight: 120;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.ten{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  right: 30px;
+  bottom: 10px;
+  text-align: start;
+}
+.trusted{
+  font-weight: 120;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.choose-chappo{
+  letter-spacing: 2px;
+  font-size:200%
+}
+.chooseh6{
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.learn{
+  margin-top: 20px;
+  border-radius: 32px;
+  padding-left: 20px;
+  background-color:#2B076E;
+  color: white;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.why{
+  margin-top: 80px;
+  display: flex;
+  margin: auto;
+  width: 300px;
+  margin-bottom: 70px;
+}
+.form{
+  margin-top: -40px;
+  width: 300px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 90px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 5px;
+  background-color: white;
+  color: black;
+  padding-bottom: 30px;
+}
+.btn-secondary{
+  padding-right: 140px;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.calculate{
+  border-radius: 32px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: blue;
+  margin-top: 40px;
+}
+.estimated{
+  margin-top: 40px;
+}
+.no{
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: black;
+}
+.eth{
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: black;
+}
+.revenue{
+  margin-top: 40px;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+/* SectionB */
+.trade{
+  padding-top: 120px;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: white;
+}
+.bitcon{
+  margin-top: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: white;
+  margin: 30px;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  top: 35px;
+  box-shadow: 0px 0px 8px 0px wheat;
+}
+.bitcon:hover{
+  background-color: #2B076E;
+  color: white;
+}
+.coin{
+  margin-top: 50px;
+}
+.digit{
+  margin-top: 40px;
+}
+.mining-A{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+.ether{
+  margin-top: 50px;
+}
+.ethereum{
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.blockchain{
+  margin-top: 30px;
+}
+.etherr{
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: white;
+  margin: 30px;
+  margin-top: 80px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 0px 8px 0px wheat;
+}
+.etherr:hover{
+  background-color: #2B076E;
+  color: white;
+}
+.mining-B{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+.litecoin{
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: white;
+  margin: 30px;
+  margin-top: 50px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 0px 8px 0px wheat;
+}
+.litecoin:hover{
+  background-color: #2B076E;
+  color: white;
+}
+.lite{
+  margin-top: 50px;
+}
+.liteh2{
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.crypt{
+  margin-top: 30px;
+}
+.mining-C{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+/* SectionC */
+.secC{
+  margin-top:50px;
+  padding-bottom: 50px;
+}
+.space{
+  padding-bottom: 30px;
+}
+.smalorem{
+  font-weight: lighter;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.more{
+  margin-top: 20px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: blue;
+  color: white;
+  border-style: solid;
+}
+.stats{
+  margin-top: 70px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.grow{
+  margin-top: 90px;
+  font-weight: bold;
+}
+.fet1{
+  display: flex;
+  margin: auto;
+}
+.fet2{
+  display: flex;
+  margin: auto;
+}
+.fet3{
+  display: flex;
+  margin: auto;
+}
+.startmin{
+  margin-top: 150px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: blue;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.sub{
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  margin: auto;  
+}
+.vec1{
+  display: flex;
+  margin: auto;
+}
+.log1{
+  padding-right: 30px;
+}
+
+/* Footer */
+.footer{
+  margin-top: 50px;
+}
+.crap{
+  position: relative;
+  right: 10px;
+  font-size: 20px;
+}
+ul{
+  list-style-type: none;
+  line-height: 50px;
+  padding-bottom: 40px;
+}
+.footcont{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .crappo{
+    padding-right: 230px;
+  }
+  .span-A1{
+    width: 350px;
+    text-align: center;
+  }
+  .span-A2{
+    right: 32px;
+  }
+  .btc{
+    width: 400px;
+  }
+  .why{
+    width: 400px;
+  }
+  .form{
+    width: 400px;
+    padding: 50px;
+  }
+  .fet1{
+    width: 400px;
+  }
+  .fet2{
+    width: 400px;
+  }
+  .fet3{
+    width: 400px;
+  }
+  .startmin{
+    width: 430px;
+  }
+  
+  @media screen and (min-width:768px) {
+    .crappo{
+      padding-right: 500px;
+    }
+    .secA{
+      padding-left: 100px;
+    }
+    .try{
+      padding: 10px;
+      padding-left: 20px;
+    }
+    .btc{
+      width: 500px;
+    }
+    .why{
+      width: 500px;
+    }
+    .form{
+      width: 700px;
+      position: relative;
+      right: 80px;
+      padding:100px
+    }
+    .howmuch{
+      padding-right: 100px;
+    }
+    .linee{
+      padding-bottom: 0px;
+      width: 500px;
+    }
+    .lineb{
+      width: 500px;
+    }
+    .secC{
+      font-weight: bold;
+    }
+    .fet1{
+      width: 500px;
+    }
+    .fet2{
+      width: 500px;
+    }
+    .fet3{
+      width: 500px;
+    }
+    .startmin{
+      width: 730px;
+    }
+    .linec{
+      width: 700px;
+    }
+  }
+  
+}
+
+@media screen and (min-width:992px) {
+  .logs{
+    position: relative;
+    left: 95px;
+  }
+   .crappo{
+    position: relative;
+    right: 150px;
+  } 
+   .secA{
+    padding-top: 100px;
+  } 
+  .navbar-toggler{
+    position: relative;
+    right: 40px;
+  }
+  .SecA1{
+    width: 500px;
+  }
+  .span-A2{
+    right: 50px;
+    padding: 7px;
+  }
+  .btc{
+    width: 400px;
+    position: relative;
+    bottom: 420px;
+    left: 300px;
+  } 
+  .try{
+    padding-top: 15px;
+  }
+  .arrow{
+    position: relative;
+    left: 120px;
+    bottom: 35px;
+  }
+  .curlist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -300px;
+    position: relative;
+    right: 45px;
+  }
+  
+  .why{
+    width: 500px;
+    position: relative;
+    right: 50px;
+  }
+  .chap{
+    display: flex;
+  }
+  .chaps{
+    order: 1;
+    padding-top: 100px;
+    position: relative;
+    right: 50px;
+  }
+  .choose-chappo{
+    width: 300px;
+  }
+  .howmuch{
+    padding-top: 30px;
+    position: relative;
+    left: 280px;
+    width: 600px;
+  }
+  .secB-grid{
+    display: flex;
+    justify-content:center;
+    padding-top: 15px;
+  }
+  .bitcon{
+    width: 300px;
+    height: 480px;
+    padding-bottom: 440px;
+  }
+  .etherr{
+    width: 300px;
+    position: relative;
+    bottom: 20px;
+  }
+  .litecoin{
+    width: 300px;
+    padding-bottom: 30x;
+    height: 505px;
+    position: relative;
+    top: 10px;
+  }
+  .investdiv{
+    padding-left: 150px;
+    padding-top: 50px;
+  }
+   .smalorem{
+    width: 400px;
+  }
+  
+  .fet1{
+    position: relative;
+    left: 160px;
+    bottom: 200px;
+    width: 600px;
+  }
+   .divinB{
+    margin-top: -200px;
+    position: relative;
+    left: 800px;
+    top: 50px;
+    width: 400px;
+  } 
+  .fet2{
+    position: relative;
+    right: 250px;
+    bottom: 250px;
+    width: 600px;
+  }
+
+  .divinC{
+    margin-top: -250px;
+    position: relative;
+    left: 150px;
+    width: 400px;
+  } 
+  .fet3{
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+    width: 600px;
+  }
+  .startmin{
+    margin-top: -100px;
+    width: 1050px;
+    position: relative;
+    left: 150px;
+    padding-left: 100px;
+    background-image:url(https://cdn.pixabay.com/photo/2015/08/27/11/20/bitcoin-910307_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position:right bottom;
+    background-blend-mode:luminosity;
+  }
+  .sub{
+    animation-name: sub;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    
+  }
+  @keyframes sub{
+    from {background-color: white;
+          width: 0%;}
+    to {width: 30%;
+      text-align: center;
+      background-color: white}
+      }
+    
+    .footd{
+      position: relative;
+      right: 450px;
+    }
+    .footdiv1{
+      position: relative;
+      right: 300px;
+      bottom: 95px;
+    }
+    .footdiv2{
+      position: relative;
+      left: 270px;
+      bottom: 310px;
+    }
+    .accept{
+      text-align: right;
+      position: relative;
+      left: 220px;
+      bottom: 350px;
+    }
+    .footrow{
+      position: relative;
+      left: 580px;
+      padding-left: 20px;
+      bottom: 100px;
+      width: 50%;
+      margin-top: -200px;
+      margin-bottom: -4000px;
+    }
+    .twenty-two{
+      position: relative;
+      right: 90px;
+      top: 238rem;
+    }
+    .footlast{
+      width: 40%;
+      position: relative;
+      left: 940px;
+      padding-left:200px;
+      top: 235rem;
+    }  
+  
+  
+
+}
+  
+
+  
+  
+  
+
+
+
+
+
